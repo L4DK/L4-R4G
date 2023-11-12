@@ -1,8 +1,9 @@
-In this example, we'll build a full-stack application that uses Retrieval Augmented Generation (RAG) powered by [Pinecone](https://pinecone.io) to deliver accurate and contextually relevant responses in a chatbot.
+A full-stack AI Assistant application that uses the state-of-the-art RAG (Retrieval Augmented Generation) powered by [Pinecone](https://pinecone.io) to deliver accurate and contextually relevant responses from Memory.
+(Yes you read that correctly, AI assistants now have SOLID MEMORY).
 
-RAG is a powerful tool that combines the benefits of retrieval-based models and generative models. Unlike traditional chatbots that can struggle with maintaining up-to-date information or accessing domain-specific knowledge, a RAG-based chatbot uses a knowledge base created from crawled URLs to provide contextually relevant responses.
+RAG is a powerful tool that combines the benefits of retrieval-based models and generative models. Unlike traditional chatbots that can struggle with maintaining up-to-date information or accessing domain-specific knowledge, an RAG-based chatbot uses a knowledge base created from crawled URLs to provide contextually relevant responses.
 
-Incorporating Vercel's AI SDK into our application will allow us easily set up the chatbot workflow and utilize streaming more efficiently, particularly in edge environments, enhancing the responsiveness and performance of our chatbot.
+Incorporating Vercel's AI SDK into our application will allow us to easily set up the chatbot workflow and utilize streaming more efficiently, particularly in edge environments, enhancing the responsiveness and performance of our chatbot.
 
 By the end of this tutorial, you'll have a context-aware chatbot that provides accurate responses without hallucination, ensuring a more effective and engaging user experience. Let's get started on building this powerful tool ([Full code listing](https://github.com/pinecone-io/pinecone-vercel-example/blob/main/package.json)).
 
@@ -28,7 +29,7 @@ You can use the [full list](https://github.com/pinecone-io/pinecone-vercel-examp
 
 ## Step 2: Create the Chatbot
 
-In this step, we're going to use the Vercel SDK to establish the backend and frontend of our chatbot within the Next.js application. By the end of this step, our basic chatbot will be up and running, ready for us to add context-aware capabilities in the following stages. Let's get started.
+In this step, we're going to use the Vercel SDK to establish the backend and front end of our chatbot within the Next.js application. By the end of this step, our basic chatbot will be up and running, ready for us to add context-aware capabilities in the following stages. Let's get started.
 
 ### Chatbot frontend component
 
